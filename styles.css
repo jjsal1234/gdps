@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.create-tab {
+    text-align: center;
+}
+
+.create-button {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Set the height to match the width for square buttons */
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.create-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
