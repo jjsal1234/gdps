@@ -23,10 +23,10 @@ body {
 
 .create-button {
     display: inline-block;
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Set the height to match the width for square buttons */
+    width: 120px; /* Adjust the width as needed */
+    height: 120px; /* Set the height to match the width for square buttons */
     overflow: hidden;
-    margin: 10px;
+    margin: 10px; /* Add some margin between buttons */
     cursor: pointer;
     border: none;
     background-color: transparent;
