@@ -13,7 +13,7 @@ body {
 .header {
     max-width: 800px;
     width: 100%;
-    margin: 200px 0 20px;
+    margin: 100px 0 20px; /* Adjusted the top margin to center the header */
 }
 
 .header img {
@@ -44,7 +44,6 @@ body {
     padding: 0;
 }
 
-/* Added specific styling for each button */
 #create-button1,
 #create-button2,
 #create-button3,
@@ -53,7 +52,6 @@ body {
     display: inline-block;
 }
 
-/* Added styling for the second row of buttons */
 #create-button6,
 #create-button7,
 #create-button8,
