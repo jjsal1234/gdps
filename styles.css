@@ -13,7 +13,7 @@ body {
 .header {
     max-width: 800px; /* Set a maximum width for the header */
     width: 100%;
-    margin: 20px 0; /* Keep the header at the top */
+    margin: 200px 0 20px; /* Adjust the top margin to move the header down further */
 }
 
 .header img {
@@ -41,6 +41,11 @@ body {
     border: none;
     background-color: transparent;
     padding: 0;
+}
+
+#create-button3,
+#create-button4 {
+    display: none; /* Hide the 3rd and 4th buttons */
 }
 
 .create-button img {
