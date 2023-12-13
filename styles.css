@@ -10,17 +10,6 @@ body {
     align-items: center;
 }
 
-.header {
-    max-width: 800px;
-    width: 100%;
-    margin: 100px 0 20px; /* Adjusted the top margin to center the header */
-}
-
-.header img {
-    max-width: 100%;
-    height: auto;
-}
-
 .create-tab {
     text-align: center;
 }
