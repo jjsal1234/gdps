@@ -10,15 +10,10 @@ body {
     align-items: center;
 }
 
-.header {
-    width: 100%;
-    max-width: 800px; /* Set a maximum width for the header */
-    margin: 20px 0; /* Add margin above and below the header */
-}
-
 .header img {
-    width: 100%; /* Set the width to 100% to fill the container */
+    max-width: 100%; /* Set a maximum width for the header image */
     height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    margin-bottom: 20px; /* Add some margin below the header */
 }
 
 .create-tab {
