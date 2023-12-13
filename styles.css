@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-image: url('https://cdn.discordapp.com/attachments/1061160749524860949/1184277123159052368/Untitled9_20231212163400.png?ex=658b6304&is=6578ee04&hm=74b2226a561661748b58c16ecd85c6bbe56c0388ec70942fe82c80039569db71');
     background-size: cover;
-    background-position: center top; /* Adjusted the background position to move it down */
+    background-position: center top;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -11,14 +11,14 @@ body {
 }
 
 .header {
-    max-width: 800px; /* Set a maximum width for the header */
+    max-width: 800px;
     width: 100%;
-    margin: 200px 0 20px; /* Adjust the top margin to move the header down further */
+    margin: 200px 0 20px;
 }
 
 .header img {
-    max-width: 100%; /* Set a maximum width for the header image */
-    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    max-width: 100%;
+    height: auto;
 }
 
 .create-tab {
@@ -27,16 +27,17 @@ body {
 
 .button-row {
     display: flex;
+    flex-wrap: wrap; /* Added flex-wrap to allow wrapping to the next row */
     justify-content: center;
     margin-bottom: 20px;
 }
 
 .create-button {
     display: inline-block;
-    width: 120px; /* Adjust the width as needed */
-    height: 120px; /* Set the height to match the width for square buttons */
+    width: 120px;
+    height: 120px;
     overflow: hidden;
-    margin: 10px; /* Add some margin between buttons */
+    margin: 10px;
     cursor: pointer;
     border: none;
     background-color: transparent;
@@ -44,12 +45,18 @@ body {
 }
 
 #create-button3,
-#create-button4 {
-    display: none; /* Hide the 3rd and 4th buttons */
+#create-button4,
+#create-button5,
+#create-button6,
+#create-button7,
+#create-button8,
+#create-button9,
+#create-button10 {
+    display: none;
 }
 
 .create-button img {
-    width: 100%; /* Set the width to 100% to fill the button */
-    height: 100%; /* Set the height to 100% to maintain the aspect ratio */
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
