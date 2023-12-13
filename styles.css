@@ -13,6 +13,12 @@ body {
     align-items: center;
 }
 
+.header {
+    max-width: 800px; /* Set a maximum width for the header */
+    width: 100%;
+    margin: 20px 0; /* Add margin above and below the header */
+}
+
 .header img {
     max-width: 100%; /* Set a maximum width for the header image */
     height: auto; /* Automatically adjust the height to maintain the aspect ratio */
