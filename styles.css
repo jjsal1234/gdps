@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-image: url('https://cdn.discordapp.com/attachments/1061160749524860949/1184277123159052368/Untitled9_20231212163400.png?ex=658b6304&is=6578ee04&hm=74b2226a561661748b58c16ecd85c6bbe56c0388ec70942fe82c80039569db71');
     background-size: cover;
-    background-position: center;
+    background-position: center bottom; /* Adjusted the background position to move it down */
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@ body {
 .header {
     max-width: 800px; /* Set a maximum width for the header */
     width: 100%;
-    margin: 100px 0 20px; /* Adjust the top margin to move the header down */
+    margin: 20px 0; /* Keep the header at the top */
 }
 
 .header img {
