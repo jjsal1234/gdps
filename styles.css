@@ -1,9 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-}
-
-.container {
     background-image: url('https://cdn.discordapp.com/attachments/1061160749524860949/1184277123159052368/Untitled9_20231212163400.png?ex=658b6304&is=6578ee04&hm=74b2226a561661748b58c16ecd85c6bbe56c0388ec70942fe82c80039569db71');
     background-size: cover;
     background-position: center;
@@ -16,13 +13,12 @@ body {
 .header {
     max-width: 800px; /* Set a maximum width for the header */
     width: 100%;
-    margin: 20px 0; /* Add margin above and below the header */
+    margin: 100px 0 20px; /* Adjust the top margin to move the header down */
 }
 
 .header img {
     max-width: 100%; /* Set a maximum width for the header image */
     height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-    margin-bottom: 20px; /* Add some margin below the header */
 }
 
 .create-tab {
