@@ -27,7 +27,7 @@ body {
 
 .button-row {
     display: flex;
-    flex-wrap: wrap; /* Added flex-wrap to allow wrapping to the next row */
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -44,15 +44,22 @@ body {
     padding: 0;
 }
 
+/* Added specific styling for each button */
+#create-button1,
+#create-button2,
 #create-button3,
 #create-button4,
-#create-button5,
+#create-button5 {
+    display: inline-block;
+}
+
+/* Added styling for the second row of buttons */
 #create-button6,
 #create-button7,
 #create-button8,
 #create-button9,
 #create-button10 {
-    display: none;
+    display: inline-block;
 }
 
 .create-button img {
